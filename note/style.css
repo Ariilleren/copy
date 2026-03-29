@@ -1,0 +1,333 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    /*height: 100px;*/
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:x-large;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+img {
+    width: 440px;
+    height: 240px;
+    flex-shrink: 0;
+    border: 2px solid black;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    margin-right: 20px;
+}
+.quotes .img {
+    display: flex;
+    justify-content: center;
+}
+
+.l {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 60%;
+    height: 300px;
+    flex-direction: column; /* элементы в столбик*/
+    justify-content: center; 
+    color: #000;
+    font-size: 35px; /*цитата*/
+    font-weight: bold;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #1E1E1E;
+    color: white;
+    padding-left: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+}
+.quotes{
+    background-color: #ACACAC;
+    padding-bottom: 5%;
+}
+.deathnote{
+    background-color: #848484;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.deathnote h2, .maincharacters h2, .aboutnote h2, .plot h2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    width: 26%;
+	height: 10px;
+	border: none;
+	border-top: 2px solid #000000;
+	box-shadow: 0 10px 10px -10px #504f4f inset;
+}
+.deathnote .qqq {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    padding-top: 4%; /*отступ б от заголовка*/
+}
+.deathnote .www{
+    display: flex;
+    padding-top: 4%; /*отступ от пред блока*/
+}
+.qqq p, .www p {
+    margin-top: 0; /*выравнивание б по верху*/
+}
+.qqq p {
+    padding-right: 5%; /*отступ т от картинки*/
+}
+.www p{
+    padding-left: 5%; /*отступ т от картинки*/
+}
+.plot{
+    background-color: #ACACAC;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+.eee{
+    padding-right: 5%;
+}
+.ttt {
+    display: flex;
+    align-items: center; 
+    padding-top: 4% /*отступ от заголовка*/
+    
+}
+.maincharacters{
+    background-color: #848484;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.zzz{
+    display: flex;
+    padding-top: 3% ;
+    padding-bottom: 5%;
+    padding-top: 4% 
+}
+.xxx{
+    display: flex;
+    padding-bottom: 5%;
+}
+.vvv{
+    display:flex;
+    padding-bottom: 5%;
+}
+.bbb{
+    display:flex;
+    padding-bottom: 5%;
+}
+
+.zzz img, .vvv img{
+    margin-right: 3%;
+}
+.xxx img, .bbb img{
+    margin-left: 3%;
+}
+.zzz p, .vvv p{
+    margin-top: 0;
+    padding-right: 220px;
+}
+.xxx p, .bbb p{
+    margin-top: 0;
+    padding-left: 220px;
+    text-align: right;
+}
+
+.aboutnote{
+    background-color: #ACACAC;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+}
+.aboutnote img{
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+.sss{
+    padding-bottom: 5%;
+}
+.aaa{
+    display:flex;
+    padding-top: 4% 
+}
+@media (max-width: 750px) {
+    body{
+        font-size:large;
+    }
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+    header ul {
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+    header ul li a{
+        display: block;
+        text-align: center;
+    }
+    header ul li {
+        margin-right: 0;
+        width: 27%;
+    }
+    header a{
+        display: flex;
+        font-size: 17px ;
+    }
+    .l {
+        width: 85%;
+        font-size: 25px; /*цитата*/
+    }
+    .qqq{
+        flex-direction: column; 
+    }
+    .qqq p, .www p{
+        padding: 0;
+    }
+    .img{
+        flex-direction: column;
+    } /*первый блок*/
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    img {
+        width: 300px;
+        height: 163px;
+        /*flex-shrink: 0*/;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .zzz p, .vvv p{
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .zzz img, .vvv img{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .xxx img, .bbb img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .xxx p, .bbb p{
+        margin-top: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    .zzz {
+        flex-direction: column; 
+    }
+    .xxx {
+        flex-direction: column;
+        /*order: 5;*/
+    }
+    .eee {
+        padding-right : 0;  
+    }
+    .xxx img {
+        order: -1;
+    }
+    .xxx p {
+        order: 5;
+    }
+    .vvv{
+        flex-direction: column; 
+    }
+    .bbb{
+        flex-direction: column; 
+    }
+    .bbb img {
+        order: -1;
+    }
+    .bbb p {
+        order: 5;
+    }
+    .www{
+        flex-direction: column; 
+    }
+    .www img {
+        order: 5;
+    }
+    .www p {
+        order: -1;
+    }
+    .aaa{
+        flex-direction: column; 
+    }
+    .ttt{
+        flex-direction: column;
+    }
+    .sss{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quotes {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .aboutnote{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .aboutnote img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .deathnote{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .maincharacters{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .plot{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*p{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }*/
+}

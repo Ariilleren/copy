@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+header {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+}
+.header_content {
+    min-width: 300px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu ul li {
+    margin-right: 20px;
+}
+.layout {
+    min-width: 600px;
+}
+main {
+    width: 100%;
+}
+.main_content {
+    min-width: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+.pict {
+    /*position: absolute;*/ 
+    /* left: 1800px; */
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 60px;
+    min-width: 350px;
+}
+#bookpict {
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+}
+a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(110, 137, 64);
+    font-weight: bold;
+}
+footer {
+    min-height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer_content ul {
+    padding-left: 0;
+}
+.footer_content {
+    width: 70%;
+    min-width: 265px;
+    /*max-width: 300px;*/
+    /*width: 70%;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    min-width: 265px;
+    max-width: 300px;
+    /* width: 700px; */
+    padding: 0;
+    margin: 0;
+    /* font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.022em;
+    text-align: left; */
+}
+footer ul {
+    list-style: none;
+}
+/* .fotoramka {
+    padding: 0px;
+    border-radius: 6px;
+    border: 3px solid grey;
+    transform: rotate(15deg);
+} */
+.block {
+        display: flex;
+}
+.right {
+    min-width: 500px;
+    max-width: 550px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.019em;
+    text-align: left;
+}
+header, footer {
+    background-color: #F4F8C6;
+}
+/* .covers {
+    display: flex
+} */
+@media (max-width: 380px){
+    .block {
+        flex-wrap: wrap;
+    }
+    .logo img {
+        height: 50px;
+        margin-top: 10px;
+    }
+    header {
+        width: 100%;
+        max-width: 380px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .right {
+        min-width: 50px;
+        max-width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        /* letter-spacing: -0.019em; */
+        /* text-align: left; */
+    }
+    .left {
+        margin-left: 7px;
+        font-size: 10px;
+        min-width: 265px;
+        max-width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    .main_content {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .menu ul {
+        max-width: 380;
+        font-size: 15px;
+        padding-left: 6px;
+    }
+    .menu ul li {
+        margin-left: 8px;
+    }
+}
+@media (min-width: 380px) and (max-width: 1300px) {
+    .block {
+        flex-wrap: wrap;
+        min-width: 1100px;
+    }
+    .header {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .header_content {
+        min-width: 300px;
+        width: 100%;
+    }    
+    .logo img {
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .right {
+        min-width: 100%;
+        max-width: 100%;
+        font-size: 30px;
+        font-weight: 16px;
+        line-height: 35px;
+    }
+    .left {
+        margin-left: 10px;
+        font-size: 20px;
+        min-width: 265px;
+        max-width: 300px;
+        padding: 0;
+        margin: 0;       
+    }
+    .pict {
+        padding: 0;
+        margin-left: 300px;
+        /*min-width: 500px;*/
+    }
+    .main_content {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .menu ul {
+        max-width: 380;
+        font-size: 20px;
+        padding-left: 6px;
+    }
+    footer {
+        font-size: 20px;
+        min-height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

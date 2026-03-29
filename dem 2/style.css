@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    font-family: 'Inter',serif;
+    font-size: large;
+    background-color: black;
+}
+header{
+    background-color: rgb(36, 71, 71);
+    color: beige;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+header ul li{
+
+}
+.vklad{
+    background-image: url(images.jpeg);
+    display: flex;
+    flex-direction: column;
+}
+.vkladmal{
+    display: flex;
+    justify-content: space-around;
+}
