@@ -1,0 +1,7 @@
+Apple 100 80 30 AppleThree
+Bread 45 200 3 Bakery
+Cheese 350 80 30 CheeseMaker
+Milk 89 150 7 WimmBillDann
+Sausage 420 60 5 MeatFactory
+Yogurt 65 300 14 Danone
+kakashki 1e+06 1 1 sasha
